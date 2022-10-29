@@ -23,7 +23,7 @@ cursorclass=pymysql.cursors.DictCursor
 id=0
 @app.route("/")
 def mai():
-   return "hello"
+   return "meow"
 @app.route('/book',methods=["GET","POST"])
 def books():
   conn=db_conn()
